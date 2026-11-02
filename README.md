@@ -194,13 +194,13 @@ Os grupos de 0 e de 6 quartos são pequenos e irregulares, então a mediana dele
 - Bairros com nomes parecidos, como "centro" e "centro histórico de são paulo", aparecem separados e não foram unificados.
 - Correlação não prova causa, e como área, quartos e vagas se relacionam entre si, não dá para separar o efeito de cada uma.
 
-- ## Sugestões baseadas nos dados
+ ## Sugestões baseadas nos dados
 
-- Para comparar preços de aluguel, usar a **mediana** em vez da média, porque poucos aluguéis muito altos puxam a média para cima.
-- Quem procura aluguel mais barato pode começar por **studios e kitnets** (mediana de R$ 1.850) e por bairros como Taboão, Sé e Campos Elíseos, que tiveram as menores médias entre os bairros com pelo menos 30 anúncios. Isso vale só para os anúncios deste dataset e não diz nada sobre o motivo dos preços.
-- Em uma próxima análise, conferir a **cidade de cada anúncio** (por exemplo, Tamboré e Alphaville) para ter certeza de que todos são da capital.
-- Em uma próxima análise, buscar dados com **data de coleta, banheiros e estado do imóvel**, que ajudariam a separar melhor o efeito de cada característica.
-- Comparar o aluguel **dentro do mesmo bairro**, e não só no total, para reduzir o peso da localização na relação com a área e os quartos.
+ Para comparar preços de aluguel, usar a **mediana** em vez da média, porque poucos aluguéis muito altos puxam a média para cima.
+ Quem procura aluguel mais barato pode começar por **studios e kitnets** (mediana de R$ 1.850) e por bairros como Taboão, Sé e Campos Elíseos, que tiveram as menores médias entre os bairros com pelo menos 30 anúncios. Isso vale só para os anúncios deste dataset e não diz nada sobre o motivo dos preços.
+ Em uma próxima análise, conferir a **cidade de cada anúncio** (por exemplo, Tamboré e Alphaville) para ter certeza de que todos são da capital.
+ Em uma próxima análise, buscar dados com **data de coleta, banheiros e estado do imóvel**, que ajudariam a separar melhor o efeito de cada característica.
+ Comparar o aluguel **dentro do mesmo bairro**, e não só no total, para reduzir o peso da localização na relação com a área e os quartos.
 
 ## Declaração de uso de inteligência artificial generativa
 
