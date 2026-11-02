@@ -3,9 +3,9 @@
 **Desafio inicial SYNAPTA (Edital nº 1/2026), Opção 1: Análise de preços de aluguel em São Paulo**
 
 - **Candidato:** Jonathan Victor Batista de Jesus
-- **Matrícula:** [01901789]
+- **Matrícula:** 01901789
 - **Curso:** Ciência da Computação, UNINASSAU Maceió
-- **Período atual:** [ 2º período]
+- **Período atual:** 2º período
 
 ---
 
