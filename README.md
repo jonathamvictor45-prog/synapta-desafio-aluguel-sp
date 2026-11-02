@@ -100,7 +100,7 @@ O `data.csv` precisa estar na mesma pasta do notebook. Se preferir baixar o dado
 
 A média é maior porque poucos aluguéis muito altos a puxam para cima (cauda comprida à direita no histograma). A mediana, que é o valor do meio, quase não é afetada por eles e descreve melhor o aluguel típico.
 
-![Distribuição do aluguel mensal](images/grafico_1_histograma_aluguel.png)
+![Distribuição do aluguel mensal](img/grafico_1_histograma_aluguel.png)
 
 *O histograma mostra que a maioria dos imóveis tem aluguel mais baixo e poucos têm aluguéis muito altos. A linha vermelha marca a média e a verde marca a mediana.*
 
@@ -141,7 +141,7 @@ Foram usados apenas bairros com **pelo menos 30 anúncios** (78 bairros, que cob
 
 Testei também os cortes de 10 e 50 anúncios: o ranking muda, e só Cerqueira César aparece entre os 10 mais caros nos três cortes.
 
-![10 bairros com maior aluguel médio](images/grafico_2_bairros_mais_caros.png)
+![10 bairros com maior aluguel médio](img/grafico_2_bairros_mais_caros.png)
 
 *O gráfico mostra os 10 bairros com maior aluguel médio entre os que têm pelo menos 30 anúncios.*
 
@@ -161,7 +161,7 @@ Correlação do aluguel com: **área 0,67**, **vagas 0,62** e **quartos 0,53**. 
 
 Os grupos de 0 e de 6 quartos são pequenos e irregulares, então a mediana deles é mais confiável.
 
-![Área e aluguel](images/grafico_3_area_aluguel.png)
+![Área e aluguel](img/grafico_3_area_aluguel.png)
 
 *Cada ponto é um imóvel. Em geral, quanto maior a área, maior o aluguel, mas a relação não é perfeita. A linha de pontos em R\$ 15.000 corresponde aos 113 anúncios com esse valor exato, e há um imóvel isolado em R\$ 25.000.*
 
