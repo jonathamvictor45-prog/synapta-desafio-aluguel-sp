@@ -50,33 +50,40 @@ Colunas criadas por mim durante a análise (não existem no arquivo original): `
 .
 ├── README.md
 ├── requirements.txt
-├── analise_aluguel_sp.ipynb   # notebook com toda a análise
-├── data.csv                   # dataset original (licença CC0)
-└── images/
-    ├── grafico_1_histograma_aluguel.png
-    ├── grafico_2_bairros_mais_caros.png
-    └── grafico_3_area_aluguel.png
+├── data/
+│   └── data.csv                    # dataset original (licença CC0)
+├── img/
+│   ├── grafico_1_histograma_aluguel.png
+│   ├── grafico_2_bairros_mais_caros.png
+│   └── grafico_3_area_aluguel.png
+└── notebooks/
+    └── analise_aluguel_sp.ipynb    # notebook com toda a análise
 ```
 
 ## Como executar
 
 **Opção 1: Google Colab (a mais simples)**
 
-1. Abra https://colab.research.google.com e use **Arquivo > Fazer upload de notebook** para enviar `analise_aluguel_sp.ipynb`.
-2. Na barra lateral esquerda, clique no ícone de pasta e depois no de upload, e envie o arquivo `data.csv` (ele deve ficar na raiz, ao lado do notebook).
+1. Abra [https://colab.research.google.com](https://colab.research.google.com) e use **Arquivo > Fazer upload de notebook** para enviar `notebooks/analise_aluguel_sp.ipynb`.
+2. Na barra lateral esquerda, clique no ícone de pasta e depois no de upload, e envie o arquivo `data/data.csv` (ele deve ficar na raiz do Colab, ao lado do notebook).
 3. Use **Ambiente de execução > Executar tudo**. Pandas e matplotlib já vêm instalados no Colab.
 
 **Opção 2: no computador**
 
-```bash
+```
 git clone <link-deste-repositorio>
 cd <pasta-do-repositorio>
 pip install -r requirements.txt
 pip install notebook
-jupyter notebook analise_aluguel_sp.ipynb
 ```
 
-O `data.csv` precisa estar na mesma pasta do notebook. Se preferir baixar o dado direto da fonte, use o link do Kaggle acima. Os gráficos são salvos na pasta `images/` quando o notebook roda.
+Copie `data/data.csv` para dentro da pasta `notebooks/`, ao lado do notebook, porque o código lê o arquivo como `data.csv`. Depois execute:
+
+```
+jupyter notebook notebooks/analise_aluguel_sp.ipynb
+```
+
+Se preferir baixar o dataset direto da fonte, use o link do Kaggle acima. Os gráficos usados neste README estão na pasta `img/`.
 
 ## Preparação e limpeza dos dados
 
